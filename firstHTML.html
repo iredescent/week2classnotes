@@ -1,0 +1,49 @@
+<!DOCTYPE HTML>
+<html>
+
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"/>
+    <link rel=stylesheet href="style.css" type="text/css"/>
+
+    <title>academy</title>
+  </head>
+  <style>
+  .displayClass{
+    display: none;
+  }
+
+  </style>
+  <body>
+    <h2>Stephen Seagal</h2>
+    <div><button class="centerClass" id="trivia">Play Trivia</button></div>
+    <center><img id="seagalPic" src="http://cdn.newsapi.com.au/image/v1/0be7befc1e4becfa62fe7cd34657601d"/></center>
+    <iframe width="854" id="seagalVideo" class="displayClass" height="480" src="https://www.youtube.com/embed/7EAuLL9n42s" frameborder="0" allowfullscreen></iframe>
+    <button class="centerClass" id="videoButton">Picture Video Toggle</button>
+    <center><h4 id="link"><a href="https://en.wikipedia.org/wiki/Steven_Seagal">your celebrity on Wikipedia</h4></a></center>
+    <table id="movieTable">
+
+  <tr>
+    <th>Movie Title</th>
+    <th>Year</th>
+  </tr>
+  <tr>
+    <td>Under Siege</td>
+    <td>1991</td>
+  </tr>
+  <tr>
+    <td>The Glimmer Man</td>
+    <td>1998</td>
+
+  </tr>
+
+    </table>
+    <input class="centerClass" id="titleInput" placeholder="title"></input>
+    <input class="centerClass" id="yearInput" placeholder="year"></input>
+    <button class="centerClass" id="tableButton">Add Movie to Table</button>
+    <h3 class="date"><input class="date" type="date" /></h3>
+  </body>
+  <script src="script.js"></script>
+</html>
